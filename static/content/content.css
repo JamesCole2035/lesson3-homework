@@ -1,0 +1,12 @@
+.content {
+	width: auto;
+	height: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+	gap: 10px;
+	justify-items: center;
+	align-items: center;
+	  /*grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));*/
+	grid-area: content;
+	background-color: lightblue;
+}

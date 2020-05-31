@@ -1,0 +1,6 @@
+.sidebar__block {	
+	width: 160px;
+	height: 30px;
+	border: 1px solid gray;
+	justify-self: center;
+}

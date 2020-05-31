@@ -1,0 +1,43 @@
+@import "./content/content.css";
+@import "./content/_block/content__block.css";
+@import "./footer/footer.css";
+@import "./footer/_title/footer__title.css";
+@import "./header/header.css";
+@import "./header/_title/header__title.css";
+@import "./sidebar/sidebar.css";
+@import "./sidebar/_title/sidebar__title.css";
+@import "./sidebar/_block/sidebar__block.css";
+@import "./sidebar/__red/sidebar__block_red.css";
+@import "./sidebar/__green/sidebar__block_green.css";
+
+* {	
+    margin: 0;
+	padding: 0;	
+}
+body {
+    height: 100%;
+	width: 100%;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+.wrapper {	
+	max-width: 1440px;
+	margin: 0 auto;
+	background-color: chartreuse;
+}	
+.container {
+	height: inherit;
+	width: 100%;
+	display: grid;
+	grid-template-columns: minmax(200px, 15%) 1fr 1fr 1fr;
+	grid-template-rows: 50px 1fr 60px;
+	gap: 5px 5px;
+	grid-template-areas: "sidebar header header header" "sidebar content content content" "footer footer footer footer";
+}
+
+
+
+
+
+
