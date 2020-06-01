@@ -1,2 +1,2 @@
 # lesson3-homework
-html, css grid
+html, используется css grid
