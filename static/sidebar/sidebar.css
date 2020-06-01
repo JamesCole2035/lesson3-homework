@@ -1,6 +1,6 @@
 .sidebar {  	
 	grid-area: sidebar; 
-	background-color: lightgreen;
+	background-color: chartreuse;
 	min-height: 450px;
 	height: inherit;
 	display: grid;
